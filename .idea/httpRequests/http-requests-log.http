@@ -1,0 +1,16 @@
+GET http://ecommerce-cpw.herokuapp.com/rest/product/9
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-09T085018.200.json
+
+###
+
+GET http://ecommerce-cpw.herokuapp.com/rest
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-09T084943.404.html
+
+###
+

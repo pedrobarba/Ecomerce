@@ -1,0 +1,24 @@
+<div>
+    <p>Produtos da categoria {{categoria}}</p>
+
+    <code>
+        <pre>
+            {{produtos|json}}
+        </pre>
+    </code>
+
+    <div ng-repeat="prod in produtos">
+        <div class="col-3">
+            <div class="card">
+                <img class="img-fluid"
+                     ng-src="data:image/(png|jpg|webp) ;base64,{{prod.img}}"/>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</div>
